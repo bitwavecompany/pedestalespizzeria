@@ -16,7 +16,9 @@ Para el control de versiones:
 -Develop: Es la rama secundaria del proyecto pero principal para el desarrollo o pruebas. Esta es la rama previa donde se realizan pruebas y soluciona problemas antes de hacer una fusion con la rama Main. 
 
 # Gitflow branches
-
+-feature -> Esta se desprende de la rama de desarrollo (develop) y permite hacer modificaciones sin preocuparce de dañar la rama develop para los demas
+-hotfix -> Esta se desprende de la rama de produccion (main) y solo debe ser usada cuando hay problemas urgentes que se deben resolver al instante. 
+-
 
 # Commands
 -Para crear un proyecto con IONIC se hace mediante el comando "ionic start", se ingresa el nombre del nuevo proyecto y se escoge vue. Si ubiece el caso de que solicita la eleccion de mas opciones, entre las mas comunes se debe seleccionar "css", "typescript", "vite", "EsLint - yes". 
