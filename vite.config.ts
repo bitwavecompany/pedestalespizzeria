@@ -19,5 +19,18 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom'
-  }
+  },
+  css: {
+    postcss: {
+      // ... configuración existente ...
+    },
+    // Configuración específica para la minificación CSS
+    preprocessorOptions: {
+      scss: {
+        // Opciones si usas SCSS
+      },
+    },
+    // Opciones de minificación
+    devSourcemap: true,
+  },
 })

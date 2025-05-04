@@ -41,5 +41,13 @@
   * `git add .`: Carga todos los archivos y los prepara para guardar.
   * `git commit -m "comentario"`: Genera el commit con un comentario (en este paso ya se guardó de manera local los cambios preparados en git add).
   * `git push -u origin nombre_rama`: Para cargar y fusionar los cambios de la rama local con la rama remota.
-```
 
+## Librerias y procesos de instalacion
+
+
+-**TSX**
+`npm install --save-dev tsx`: Instalado en desarrollo, permite ejecutar archivos TypeScript y TypeScript+JSX directamente, sin necesidad de un paso de compilación previo. Es una alternativa moderna a `ts-node`
+
+-**Tailwind**
+1. * `npm install -D tailwindcss@3 postcss autoprefixer`: Esta version es mas estable que la 4 y se la debe descargar en modo de desarrollo "-D"*
+2. * `npx tailwindcss init -p`: Despues es necesario ejecutar el siguiente comando para crear los archivos de configuracion *tailwind.config.js* y *postcss.config.js* *
