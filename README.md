@@ -10,6 +10,7 @@
 ### Para Control de Versiones
 - GitHub
 - GitFlow
+- fork
 
 ## Ramas
 
