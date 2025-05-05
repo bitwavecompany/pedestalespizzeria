@@ -67,3 +67,4 @@ El proyecto tiene una estructuracion basada en features o funcionalidades y estr
 2. * `npx tailwindcss init -p`: Despues es necesario ejecutar el siguiente comando para crear los archivos de configuracion *tailwind.config.js* y *postcss.config.js* *
 
 
+chat de v0.dev util: https://v0.dev/chat/ecommerce-website-structure-Fyml84MGJ8H
