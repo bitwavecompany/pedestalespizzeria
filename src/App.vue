@@ -1,6 +1,6 @@
 <template>
   <ion-app>
-    <ion-router-outlet /> this is my pag
+    <ion-router-outlet />
   </ion-app>
 </template>
 
