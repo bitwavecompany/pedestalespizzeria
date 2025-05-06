@@ -65,6 +65,3 @@ El proyecto tiene una estructuracion basada en features o funcionalidades y estr
 -**Tailwind**
 1. * `npm install -D tailwindcss@3 postcss autoprefixer`: Esta version es mas estable que la 4 y se la debe descargar en modo de desarrollo "-D"*
 2. * `npx tailwindcss init -p`: Despues es necesario ejecutar el siguiente comando para crear los archivos de configuracion *tailwind.config.js* y *postcss.config.js* *
-
-
-chat de v0.dev util: https://v0.dev/chat/ecommerce-website-structure-Fyml84MGJ8H
