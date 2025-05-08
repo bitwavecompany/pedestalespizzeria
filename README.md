@@ -40,9 +40,20 @@ Ecommerce de una pizzeria, este proyecto incialmente sera una pagina web simple 
 
 ## Comandos
 
-- Para crear un proyecto con IONIC se hace mediante el comando `ionic start`, se ingresa el nombre del nuevo proyecto y se escoge vue. Si hubiese el caso de que solicita la elección de más opciones, entre las más comunes se debe seleccionar "css", "typescript", "vite", "EsLint - yes".
+-Primero tener descargado node.js
 
 - Después en la ruta del proyecto se inserta el comando `npm install` o `npm i`, esto lo que hace es instalar todos los paquetes necesarios que estén asignados en package.json. Es muy importante ejecutar este comando cuando se clona o crea un proyecto por primera vez.
+
+- Con lo anterior descargado se descarga ionic con el siguiente comando
+`npm install -g @ionic/cli`
+
+- Para crear un proyecto con IONIC se hace mediante el comando `ionic start`, se ingresa el nombre del nuevo proyecto y se escoge vue. Si hubiese el caso de que solicita la elección de más opciones, entre las más comunes se debe seleccionar "css", "typescript", "vite", "EsLint - yes".
+
+-Para ejecutar el proyecto en localhost con el siguiente comando:
+`npm run dev` Dependiendo la configuracion de vite.config.ts y package.json entonces se utiliza pero no es muy recomendado
+`ionic serve` Este es mas comun para ionic, por defecto ejecuta en el puerto 8100 pero se lo puede cambiar.
+`ionic serve --port=3000` Este es mas comun para ionic
+
 
 ![NPM Install](image.png)
 
@@ -52,6 +63,9 @@ Ecommerce de una pizzeria, este proyecto incialmente sera una pagina web simple 
   * `git add .`: Carga todos los archivos y los prepara para guardar.
   * `git commit -m "comentario"`: Genera el commit con un comentario (en este paso ya se guardó de manera local los cambios preparados en git add).
   * `git push -u origin nombre_rama`: Para cargar y fusionar los cambios de la rama local con la rama remota.
+
+
+
 
 ## Estructura de carpetas 
 **Feature-Based + Shared Layers**
