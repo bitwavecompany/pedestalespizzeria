@@ -11,8 +11,10 @@
     "test:e2e": "cypress run",
     "test:unit": "vitest",
     "lint": "eslint .",
-    "generate-theme": "tsx src/theme/generate-css-vars.ts"  },
+    "generate-theme": "tsx src/theme/generate-css-vars.ts"
+  },
   "dependencies": {
+    "@iconify/vue": "^5.0.0",
     "@ionic/vue": "^8.0.0",
     "@ionic/vue-router": "^8.0.0",
     "ionicons": "^7.0.0",

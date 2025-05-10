@@ -53,7 +53,7 @@ Ecommerce de una pizzeria, este proyecto incialmente sera una pagina web simple 
 `npm run dev` Dependiendo la configuracion de vite.config.ts y package.json entonces se utiliza pero no es muy recomendado
 `ionic serve` Este es mas comun para ionic, por defecto ejecuta en el puerto 8100 pero se lo puede cambiar.
 `ionic serve --port=3000` Este es mas comun para ionic
-
+`npm run build` importante de ejecutar antes de subir a un hosting, si falla aqui, fallara en el hosting
 
 ![NPM Install](image.png)
 

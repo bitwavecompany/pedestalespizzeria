@@ -20,6 +20,9 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom'
   },
+  optimizeDeps: {
+    include: ['@iconify/vue']
+  },
   css: {
     postcss: {
       // ... configuración existente ...
