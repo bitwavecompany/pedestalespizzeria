@@ -11,7 +11,7 @@
 
 <script setup lang="ts">
 import { IonContent, IonPage } from '@ionic/vue';
-import AppHeader from './AppHeader.vue';
+import AppHeader from './NavegationMain.vue';
 </script>
 
 <style scoped>
