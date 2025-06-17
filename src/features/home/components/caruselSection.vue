@@ -1,15 +1,16 @@
 <template>
+<section id="hero">
 <div id="default-carousel" class="relative w-screen bg-gray-200" :style="`height: calc(100vh - 64px);`">
   <!-- Carousel wrapper -->
   <div class="relative w-screen h-full overflow-hidden rounded-none">
-    <div v-for="(img, idx) in images" :key="img"
+    <div v-for="(img, idx) in images" :key="img.id"
       :class=" [
         idx === active ? 'block duration-700 ease-in-out opacity-100' : 'hidden opacity-0',
         'absolute block w-full h-full transition-opacity top-0 left-0'
       ]"
       data-carousel-item
     >
-      <img :src="img" class="h-full mx-auto object-contain" style="max-width:100%;" alt="slide image" />
+      <img :src="img.imagen" class="h-full mx-auto object-contain" style="max-width:100%;" alt="slide image" />
     </div>
   </div>
   <!-- Slider indicators -->
@@ -35,18 +36,31 @@
     </span>
   </button>
 </div>
+</section>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const images = [
-  '/images/combo-kids.png',
-  '/images/logo-sin-fondo.png',
-  '/images/presentation-card.png',
-]
+import { ref, onMounted } from 'vue'
+import { fetchCaruselImages } from '../services/api'
+
+interface CaruselImage {
+  id: number;
+  imagen: string;
+}
+
+const images = ref<CaruselImage[]>([])
 const active = ref(0)
-const prev = () => { active.value = (active.value - 1 + images.length) % images.length }
-const next = () => { active.value = (active.value + 1) % images.length }
+
+const prev = () => { active.value = (active.value - 1 + images.value.length) % images.value.length }
+const next = () => { active.value = (active.value + 1) % images.value.length }
+
+onMounted(async () => {
+  try {
+    images.value = await fetchCaruselImages()
+  } catch (e) {
+    images.value = []
+  }
+})
 </script>
 
 <style scoped>
