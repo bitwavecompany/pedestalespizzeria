@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Combo",
+    "description": "Deliciosa pizza con pepperoni y queso derretido.",
+    "price": 2.22
+  },
+  {
+    "id": 2,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Combo2",
+    "description": "Pizza de carne de res con salsa especial y queso.",
+    "price": 22
+  },
+  {
+    "id": 3,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "combo3",
+    "description": "Pizza vegetariana con vegetales frescos y queso.",
+    "price": 1.22
+  }
+]

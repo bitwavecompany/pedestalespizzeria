@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Pizza peperoni",
+    "description": "Deliciosa pizza con pepperoni y queso derretido.",
+    "price": 8.99
+  },
+  {
+    "id": 2,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Beef",
+    "description": "Pizza de carne de res con salsa especial y queso.",
+    "price": 22
+  },
+  {
+    "id": 3,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Vegetariana",
+    "description": "Pizza vegetariana con vegetales frescos y queso.",
+    "price": 1.22
+  },
+  {
+    "id": 4,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Hawaiana",
+    "description": "Pizza con jamón, piña y queso mozzarella.",
+    "price": 10.5
+  },
+  {
+    "id": 5,
+    "imagen": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "label": "Cuatro Quesos",
+    "description": "Pizza con mezcla de cuatro quesos premium.",
+    "price": 12.75
+  }
+]

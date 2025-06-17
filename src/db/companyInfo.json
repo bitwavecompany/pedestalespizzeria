@@ -1,0 +1,21 @@
+[
+  {
+    "id": 78787878,
+    "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUA...",
+    "name": "Pedestales Pizzería",
+    "address": "Maria angelica Idrobo y rosa catucuamba S52-555",
+    "locationUrl": "https://maps.app.goo.gl/cCiArFpiVMpnnaTY6",
+    "phone": "0998877665",
+    "email": "pedestalespizzeria@gmail.com",
+    "schedule": {
+      "lunes-viernes": "11:00 AM - 11:00 PM",
+      "sabado": "12:00 PM - 12:00 AM",
+      "domingo": "12:00 PM - 10:00 PM"
+    },
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "twitter": "#"
+    }
+  }
+]
